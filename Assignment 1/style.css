@@ -1,0 +1,129 @@
+.header {
+    width: 100%;
+    height: 100pt;
+    background-color: #7cca79;
+}
+.logo {
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    padding-left: 10pt;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 100pt;
+}
+.title {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+.main {
+    width: 100%;
+    height: 500pt;
+}
+.left-sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: #ddc869;
+    float: left;
+}
+.menu {
+    margin: 45pt;
+}
+.middle-body {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.box-1 {
+    margin: 5pt;
+    padding: 5pt;
+    font-size: 18px;
+    border: 2px solid grey;
+    height: 200pt;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 {
+    margin: 5pt;
+    padding: 5pt;
+    font-size: 18px;
+    border: 2px solid grey;
+    height: 100pt;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-3 {
+    margin: 5pt;
+    padding: 5pt;
+    font-size: 18px;
+    border: 2px solid grey;
+    height: 50pt;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: pink;
+    float: left;
+}
+.box {
+    margin: 15pt;
+    padding: 10pt;
+    background-color: #b3c2e4;
+    text-align: right;
+}
+input {
+    width: 95%;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    padding: 5pt;
+    border: 2px solid #3f3f3f;
+    border-radius: 6px;
+    text-align: center;
+}
+.login {
+    padding: 5pt 10pt 5pt 10pt;
+    border: 2px solid #3f3f3f;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.footer {
+    width: 100%;
+    height: 100pt;
+    font-size: 18px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
