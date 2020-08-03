@@ -1,6 +1,6 @@
 var text = "this is, a new text";
-function remove_sapce(text) {
-    return text.replace(/\s/g, '_');
+String.prototype.removeSapce = function () {
+    return this.replace(/\s/g, '_');
 }
-var new_text = remove_sapce(text);
+var new_text = text.removeSapce();
 console.log(new_text);
